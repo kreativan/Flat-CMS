@@ -21,9 +21,5 @@ jQuery(function($) {
     return $(this).attr('href') == location.pathname
     }).addClass('uk-active').closest('div').parent().addClass('uk-active');
     
-    // add html editor to textarea
-    $("#caption_form > textarea").attr("data-uk-htmleditor","{mode:'split'}");
-    //$("#textblock").attr("data-uk-htmleditor","{mode:'tab', markdown:true}");
-    //$("#wysiwyg").attr("data-uk-htmleditor","{mode:'tab', markdown:true}");
     
 });
