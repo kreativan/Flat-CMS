@@ -20,4 +20,7 @@ jQuery(function($) {
     // ivm-gallery   
     $('a[href^="index.php?p=upload&gallery=media"] + .tagdiv input').val("{{ivm-gallery:folder_name}}");
     
+    // add html editor to textarea
+    $("#caption_form > textarea").attr("data-uk-htmleditor","{mode:'tab'}");
+    
 });
