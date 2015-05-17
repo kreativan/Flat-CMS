@@ -37,4 +37,7 @@
         
     </div>
     
+    <!-- custom widgets -->
+    <?php include("../template/admin/widgets.php");?>
+    
 </div><!-- ACC END -->
