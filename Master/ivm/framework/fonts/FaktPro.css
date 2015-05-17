@@ -1,0 +1,97 @@
+@font-face {
+	font-family:'Fakt Hair';
+	src: url('fakt/FaktPro-Hair_gdi.eot');
+	src: url('fakt/FaktPro-Hair_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fakt/FaktPro-Hair_gdi.woff') format('woff'),
+		url('fakt/FaktPro-Hair_gdi.ttf') format('truetype'),
+		url('fakt/FaktPro-Hair_gdi.otf') format('opentype'),
+		url('fakt/FaktPro-Hair_gdi.svg#FaktPro-Hair') format('svg');
+	font-weight: 280;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'Fakt Thin';
+	src: url('fakt/FaktPro-Thin_gdi.eot');
+	src: url('fakt/FaktPro-Thin_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fakt/FaktPro-Thin_gdi.woff') format('woff'),
+		url('fakt/FaktPro-Thin_gdi.ttf') format('truetype'),
+		url('fakt/FaktPro-Thin_gdi.otf') format('opentype'),
+		url('fakt/FaktPro-Thin_gdi.svg#FaktPro-Thin') format('svg');
+	font-weight: 290;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'Fakt Light';
+	src: url('fakt/FaktPro-Light_gdi.eot');
+	src: url('fakt/FaktPro-Light_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fakt/FaktPro-Light_gdi.woff') format('woff'),
+		url('fakt/FaktPro-Light_gdi.ttf') format('truetype'),
+		url('fakt/FaktPro-Light_gdi.otf') format('opentype'),
+		url('fakt/FaktPro-Light_gdi.svg#FaktPro-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'Fakt Blond';
+	src: url('fakt/FaktPro-Blond_gdi.eot');
+	src: url('fakt/FaktPro-Blond_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fakt/FaktPro-Blond_gdi.woff') format('woff'),
+		url('fakt/FaktPro-Blond_gdi.ttf') format('truetype'),
+		url('fakt/FaktPro-Blond_gdi.otf') format('opentype'),
+		url('fakt/FaktPro-Blond_gdi.svg#FaktPro-Blond') format('svg');
+	font-weight: 350;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'Fakt';
+	src: url('fakt/FaktPro-Normal_gdi.eot');
+	src: url('fakt/FaktPro-Normal_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fakt/FaktPro-Normal_gdi.woff') format('woff'),
+		url('fakt/FaktPro-Normal_gdi.ttf') format('truetype'),
+		url('fakt/FaktPro-Normal_gdi.otf') format('opentype'),
+		url('fakt/FaktPro-Normal_gdi.svg#FaktPro-Normal') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'Fakt Medium';
+	src: url('fakt/FaktPro-Medium_gdi.eot');
+	src: url('fakt/FaktPro-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fakt/FaktPro-Medium_gdi.woff') format('woff'),
+		url('fakt/FaktPro-Medium_gdi.ttf') format('truetype'),
+		url('fakt/FaktPro-Medium_gdi.otf') format('opentype'),
+		url('fakt/FaktPro-Medium_gdi.svg#FaktPro-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'Fakt SemiBold';
+	src: url('fakt/FaktPro-SemiBold_gdi.eot');
+	src: url('fakt/FaktPro-SemiBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fakt/FaktPro-SemiBold_gdi.woff') format('woff'),
+		url('fakt/FaktPro-SemiBold_gdi.ttf') format('truetype'),
+		url('fakt/FaktPro-SemiBold_gdi.otf') format('opentype'),
+		url('fakt/FaktPro-SemiBold_gdi.svg#FaktPro-SemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}

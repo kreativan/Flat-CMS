@@ -1,0 +1,30 @@
+<li><a href="<?php echo $path;?>">Home</a></li> 
+<li class="uk-parent"><a href="#">Features</a>
+        <ul class="uk-nav-sub">
+            <li><a href="<?php echo $path;?>/features/layouts">Layout</a></li>
+            <li><a href="<?php echo $path;?>/features/uikit">Uikit</a></li>
+        </ul>
+    </li>
+    <li class="uk-parent"><a href="#">Pages</a>
+        <ul class="uk-nav-sub">
+            <li><a href="<?php echo $path;?>/page-layouts/default">Default</a></li>
+            <li><a href="<?php echo $path;?>/page-layouts/page">Page</a></li>
+            <li><a href="<?php echo $path;?>/page-layouts/article">Article</a></li>
+            <li><a href="<?php echo $path;?>/page-layouts/sidebar-right">Sidebar Right</a></li>
+            <li><a href="<?php echo $path;?>/page-layouts/sidebar-left">Sidebar Left</a></li>
+        </ul>
+    </li>
+    <li class="uk-parent"><a href="#">Widgets</a>
+    	<ul  class="uk-nav-sub">
+            <li><a href="<?php echo $path;?>/widgets/modal">Modal & Lightbox</a></li>
+            <li><a href="<?php echo $path;?>/widgets/grid">Grid</a></li>
+        	<li><a href="<?php echo $path;?>/widgets/kreativ-ui">Kreativ UI</a></li>
+            <li><a href="<?php echo $path;?>/widgets/slideshow">Slideshow</a></li>
+            <li><a href="<?php echo $path;?>/widgets/gallery">Gallery</a></li>
+            <li><a href="<?php echo $path;?>/widgets/slideset">Slideset</a></li>
+            <li><a href="<?php echo $path;?>/widgets/map">Google Map</a></li>
+            <li><a href="<?php echo $path;?>/widgets/twitter">Twitter</a></li>
+            <li><a href="<?php echo $path;?>/widgets/form">Contact Form</a></li>
+        </ul>
+   </li>
+    <li><a href="<?php echo $path;?>/blog">Blog</a></li>

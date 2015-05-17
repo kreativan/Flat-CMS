@@ -1,0 +1,55 @@
+@ivm-full-screen-bg:                            url(../img/bg.jpg);
+@ivm-full-screen-bg-color:                      #fff;
+
+@ivm-full-screen-background:                    #232C39;
+@ivm-full-screen-color:                         #fff;
+
+/* ========================================================================
+       Full Screen
+ ========================================================================== */
+.ivm-full-screen {
+    display:block;
+    position:relative;
+    background-size:cover; 
+    background-color:@ivm-full-screen-background;
+    color:@ivm-full-screen-color;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box; 
+}
+
+.uk-sticky-placeholder + .ivm-full-screen,
+#ivm-header + .ivm-full-screen {
+    top:-(@navbar-nav-height + 1px);
+    margin-bottom:-(@navbar-nav-height + 1px);
+}
+.uk-sticky-placeholder + .ivm-full-screen > div,
+#ivm-header + .ivm-full-screen > div {
+     padding-top:@navbar-nav-height;
+}
+
+.ivm-full-screen h1,
+.ivm-full-screen h2,
+.ivm-full-screen h3,
+.ivm-full-screen h4,
+.ivm-full-screen h5,
+.ivm-full-screen h6 {
+    color:@ivm-full-screen-color;
+    text-shadow:@ivm-module-text-shadow;
+}
+
+.ivm-full-screen.ivm-full-screen-bg {
+    background:@ivm-full-screen-bg center center no-repeat;
+    background-size:cover;
+    color:@ivm-full-screen-bg-color;
+}
+.ivm-full-screen-bg h1,
+.ivm-full-screen-bg h2,
+.ivm-full-screen-bg h3,
+.ivm-full-screen-bg h4,
+.ivm-full-screen-bg h5,
+.ivm-full-screen-bg h6 {
+    color:@ivm-full-screen-bg-color;
+    text-shadow:@ivm-module-text-shadow;
+}

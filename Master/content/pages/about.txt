@@ -1,0 +1,8 @@
+Flat-CMS Gallery
+
+kreatiivan.net
+
+  {{template:page-subheading}} 
+<div class="uk-container uk-container-center ivm-content">
+{{ivm-gallery:screenshots}}
+</div> 

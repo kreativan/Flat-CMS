@@ -1,0 +1,9 @@
+Flat CMS
+
+Flat-File CMS system
+
+ <section class="ivm-full-screen">
+<div class="uk-container uk-container-center uk-height-viewport uk-flex uk-flex-middle uk-flex-center">
+	<h1 class="uk-heading-large">Flat CMS</h1>
+</div>
+</section> 

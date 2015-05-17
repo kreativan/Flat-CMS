@@ -1,0 +1,45 @@
+#contact label {
+	clear: both;
+	display: block;
+	color: #666;
+	font-size: 15px;
+}
+
+#contact button {
+	padding: 4px 14px;
+	background-color: #999;
+	font-size: 14px;
+	color: white;
+}
+
+#contact input,textarea:focus {
+	outline:0;
+	outline:none;
+}
+
+#contact input, textarea {
+	padding: 4px 8px;
+	font-size: 14px;
+	color: #444;
+}
+
+#contact textarea {
+	max-width: 400px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#contact input {
+	max-width: 400px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.green {
+	color: #3db675 !important;
+	font-weight: bold;
+}
+
+#human {
+	display: none;
+}

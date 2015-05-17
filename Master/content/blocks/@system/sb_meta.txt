@@ -1,0 +1,21 @@
+
+<!-- Google -->
+<meta name="keywords" content="web dizajn,web dizajner,izrada web stranica,izrada web sajtova,izrada internet prodavnice,izrada web shopa,cms sistemi,web sajt,web stranica,web shop,web dizajn srbija, front end developer,web developer,html u psd,odrzavanje web sajta,responzivan dizajn,redizajn sajta, web dizajn cena, cena izrade web sajta">
+<meta name="author" content="Ivan Milincic">
+<meta name="copyright" content="Ivan Milincic" />
+<meta name="application-name" content="kreativan.net" />
+
+<!-- Facebook -->          
+<meta property="og:title" content="Web dizajn & Front-end Development" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/template/img/facebook_meta_img.jpg" />
+<meta property="og:email" content="lokomotivan@gmail.com"/>
+<meta property="og:url" content="http://www.kreativan.net" />
+<meta property="og:description" content="Web dizajn & front-end development. Izrada web stranica i internet prodavnica po najpovoljnijim cenama" />
+
+<!-- Twitter -->          
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@lokomotivan" />
+<meta name="twitter:title" content="Web Dizajn & front-end development" />
+<meta name="twitter:description" content="Web dizajn & front-end development. Izrada web stranica i internet prodavnica po najpovoljnijim cenama" />
+<meta name="twitter:image" content="/template/img/twitter_card_img.jpg" />

@@ -1,0 +1,27 @@
+/* ========================================================================
+    Sidebar Menu
+======================================================================== */
+
+.uk-nav li.uk-active a {
+    background: @ivm-primary-background;
+    color:@ivm-primary-color;
+}
+
+.uk-nav .uk-nav-sub {
+    border-bottom:1px solid #ddd;
+}
+
+.uk-nav .uk-nav-sub a,
+.uk-nav .uk-nav-sub.uk-active a {
+    background:transparent;
+    color:@base-body-color;
+    font-size:@base-body-font-size - 1px;
+    padding-left:5px;
+}
+
+.uk-nav .uk-nav-sub li.uk-active a,
+.uk-nav .uk-nav-sub a:hover,
+.uk-nav .uk-nav-sub.uk-active li.uk-active a,
+.uk-nav .uk-nav-sub.uk-active a:hover {
+    color:@base-link-color;
+}

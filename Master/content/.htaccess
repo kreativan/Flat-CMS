@@ -1,0 +1,4 @@
+<FilesMatch '\.(zip|txt)$'>
+Order allow,deny
+Deny from all
+</FilesMatch>

@@ -1,0 +1,82 @@
+@ivm-module-text-shadow:                        0px 1px 2px rgba(0, 0, 0, 0.3);
+
+@ivm-module-padding:                            80px;
+@ivm-module-space-padding:                      (@ivm-module-padding * 1.5);
+
+@ivm-style-bg:                                 url(../img/bg.jpg);
+@ivm-style-bg-color:                           #fff;
+
+/* ========================================================================
+    IVM MODULES
+======================================================================== */
+
+.ivm-module {
+    display:block;
+    position:relative;
+    padding:@ivm-module-padding 0px;
+}
+
+.ivm-module + .ivm-module {
+    border-top:1px solid #ddd;
+}
+
+.ivm-module-space {
+    padding:@ivm-module-space-padding 0px;
+}
+
+.ivm-no-space {
+    padding:0px !important;
+}
+
+/* PRIMARY
+============================================ */
+
+.ivm-style-primary {
+    background:@ivm-primary-background;
+    color:@ivm-primary-color;
+}
+
+.ivm-style-primary h1,
+.ivm-style-primary h2,
+.ivm-style-primary h3,
+.ivm-style-primary h4,
+.ivm-style-primary h5,
+.ivm-style-primary h6 {
+    color:@ivm-primary-color;
+    text-shadow:@ivm-module-text-shadow;
+}
+
+/* SECODNARY
+============================================ */
+.ivm-style-secondary {
+    background:@ivm-secondary-background;
+    color:@ivm-secondary-color;
+}
+
+.ivm-style-secondary h1,
+.ivm-style-secondary h2,
+.ivm-style-secondary h3,
+.ivm-style-secondary h4,
+.ivm-style-secondary h5,
+.ivm-style-secondary h6 {
+    color:@ivm-secondary-color;
+    text-shadow:@ivm-module-text-shadow;
+}
+
+/* Style BG
+============================================ */
+.ivm-style-bg {
+    background:@ivm-style-bg center center no-repeat;
+    background-size:cover;
+    color:@ivm-style-bg-color;
+}
+
+.ivm-style-bg h1,
+.ivm-style-bg h2,
+.ivm-style-bg h3,
+.ivm-style-bg h4,
+.ivm-style-bg h5,
+.ivm-style-bg h6 {
+    color:@ivm-style-bg-color;
+    text-shadow:@ivm-module-text-shadow;
+}

@@ -1,0 +1,23 @@
+<div style="" class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-2">
+<div class="uk-grid uk-dropdown-grid">
+    
+<div class="uk-width-1-2">
+    <ul class="uk-nav uk-nav-navbar">
+        <li class="uk-nav-header">Column 1</li>
+        <li><a href="<?php echo $path?>">Item 1</a></li>
+         <li><a href="<?php echo $path?>">Item 2</a></li>
+         <li><a href="<?php echo $path?>">Item 3</a></li>
+     </ul>
+</div>
+
+    <div class="uk-width-1-2">
+        <ul class="uk-nav uk-nav-navbar">
+        <li class="uk-nav-header">Column2</li>
+        <li><a href="<?php echo $path?>">Item 1</a></li>
+         <li><a href="<?php echo $path?>">Item 2</a></li>
+         <li><a href="<?php echo $path?>">Item 3</a></li>
+     </ul>
+    </div>
+
+</div>
+</div>

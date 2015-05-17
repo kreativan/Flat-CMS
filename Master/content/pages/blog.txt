@@ -1,0 +1,7 @@
+Blog
+
+Flat-CMS Blog Component
+
+ {{template:sidebar-right-subheading}} 
+
+ {{ivm-blog}} 

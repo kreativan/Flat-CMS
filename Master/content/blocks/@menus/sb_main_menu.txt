@@ -1,0 +1,7 @@
+<li><a href="<?php echo $path; ?>/./">Home</a></li>
+<li><a href="<?php echo $path; ?>/about">About</a></li>
+<li><a href="<?php echo $path; ?>/contact">Contact</a></li>
+<li><a href="<?php echo $path; ?>/blog">Blog</a></li>
+<li class="uk-parent ivm-dropdown" data-uk-dropdown="{mode:'click'}"><a style="font-size:24px;" href="#"><i class="uk-icon-bars"></i></a>
+    <?php include("content/blocks/@menus/sb_dropdown.txt"); ?> 
+</li>

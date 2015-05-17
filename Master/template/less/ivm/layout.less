@@ -1,0 +1,91 @@
+@utility-container-large-max-width:             1200px;
+@utility-container-large-padding-horizontal:    35px;
+
+@grid-gutter-horizontal:                        25px;
+@grid-gutter-vertical:                          25px;
+
+@grid-gutter-large-horizontal:                  35px;
+@grid-gutter-large-vertical:                    35px;
+
+@ivm-footer-background:                         #00070D;
+@ivm-footer-color:                              #888;
+@ivm-footer-padding:                            60px;
+
+/* ======================================================================== 
+    MAIN LAYOUT
+======================================================================== */
+
+/* Large screen and bigger */
+
+@media (min-width: 1220px) {
+    .uk-container {
+        max-width: 1200px;
+        padding: 0 35px;
+    }
+    .uk-container .uk-container {
+        padding:0px;
+    }
+}
+
+/* ======================================================================== 
+    Sticky
+======================================================================== */
+
+[data-uk-sticky][class*='uk-animation-'] {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+[data-uk-sticky].uk-animation-reverse {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+/* ======================================================================== 
+    Custom Content Classes
+======================================================================== */
+
+.ivm-content {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    display: block;
+    position:relative;
+    width:100%;
+    max-width:1200px;
+    margin: @grid-gutter-large-vertical auto !important;
+    min-height:300px !important;
+}
+
+.ivm-content-small {
+    display: block;
+    width: 60%;
+    margin: @grid-gutter-large-vertical auto !important;
+}
+
+/* ======================================================================== 
+    Footer
+======================================================================== */
+
+#ivm-footer {
+    position: relative;
+    background: @ivm-footer-background;
+    color: @ivm-footer-color;
+    padding: @ivm-footer-padding 0;
+    text-align: center;
+}
+
+#ivm-footer > * {
+    margin: 0;
+}
+
+.ivm-scroll-top {
+    display: block;
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px !important;
+    top: 25px;
+    font-size: 24px;
+    color: @ivm-footer-color;
+}

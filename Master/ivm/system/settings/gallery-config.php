@@ -1,0 +1,11 @@
+<?php
+$numb_of_items_in_row="5";
+$ivm_gallery_animation="uk-overlay-spin";
+$ivm_gallery_space="20px";
+$filter_nav="";
+$filter_nav_order="";
+$filter_nav_style="";
+$uk_gallery_animation="";
+$uk_gallery_no_of_items="";
+$uk_gallery_item_space="";
+?>

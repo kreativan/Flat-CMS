@@ -1,0 +1,11 @@
+Contact
+
+
+
+ <section class="ivm-module ivm-no-space">
+ {{ivm-map}} 
+</section> 
+
+ <div class="uk-container uk-container-center ivm-content">
+	 {{ivm-form}} 
+</div> 

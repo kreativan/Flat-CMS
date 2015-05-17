@@ -1,0 +1,53 @@
+body#login-page {
+    margin:0px;
+    background: #232C39; 
+}
+
+#login-form img {
+    display:none;
+}
+
+#login-form:before {
+    content:'';
+    display:block;
+    margin:auto;
+    width:300px;
+    height:100px;
+    background:url(../img/logo.png) center center no-repeat;
+    background-size:100%, auto;
+}
+
+#login-form {
+    margin-top:100px;
+}
+
+#login-form input {
+    height:35px;
+}
+
+#login-form .btn {
+    background:#2b81d8;
+    background:-webkit-linear-gradient(#4e94d9, #2b81d8);
+    background:-moz-linear-gradient(#4e94d9, #2b81d8);
+    background:-o-linear-gradient(#4e94d9, #2b81d8);
+    background:linear-gradient(#4e94d9, #2b81d8);
+    border:1px solid #2b81d8;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2), 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    height:35px;
+    line-height:34px !important;
+    padding:0px 35px;
+    color:#fff !important;
+    border-radius:3px;
+    cursor:pointer;
+}
+
+#login-form .btn:hover {
+    color:#fff;
+    background: #368be0;
+    text-decoration:none;
+}
+
+#login-form .btn:focus,
+#login-form .btn:active {
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,148 @@
+@button-height:                                 35px;
+@button-mini-height:                            20px;
+@button-small-height:                           25px;
+@button-large-height:                           45px;
+
+@ivm-button-border-radius:                      3px;    
+
+@button-line-height:                            @button-height;
+@button-mini-line-height:                       @button-mini-height;
+@button-small-line-height:                      @button-small-height;
+@button-large-line-height:                      @button-large-height;
+
+@button-mini-font-size:                         11px;
+@button-small-font-size:                        12px;
+@button-large-font-size:                        16px;
+
+@button-padding-horizontal:                     20px;
+@button-mini-padding-horizontal:                6px;
+@button-small-padding-horizontal:               10px;
+@button-large-padding-horizontal:               30px;
+
+@button-font-size:                              1rem;
+@button-background:                             #eee;
+@button-color:                                  #444;
+
+@button-primary-background:                     #00a8e6;
+@button-primary-color:                          #fff;
+
+@button-success-background:                     #8cc14c;
+@button-success-color:                          #fff;
+
+@button-danger-background:                      #da314b;
+@button-danger-color:                           #fff;
+
+@button-disabled-background:                    #f5f5f5;
+@button-disabled-color:                         #999;
+
+@button-link-color:                             #07D;
+@button-link-hover-color:                       #059;
+@button-link-hover-text-decoration:             underline;
+@button-link-disabled-color:                    #999;
+
+
+/* ========================================================================
+        Buttons
+ ========================================================================== */
+
+.uk-button-group .uk-button {
+    border-radius:0px;
+}
+.uk-button-group .uk-button:first-child {
+    border-top-left-radius: @ivm-button-border-radius;
+    border-bottom-left-radius: @ivm-button-border-radius;
+}
+.uk-button-group .uk-button:last-child {
+    border-top-right-radius: @ivm-button-border-radius;
+    border-bottom-right-radius: @ivm-button-border-radius;
+}
+.uk-button-group .uk-button + .uk-button {
+    border-left:0px;
+}
+
+/* button */
+.uk-button {
+    border:1px solid darken(@button-background, 5%);
+    border-radius:@ivm-button-border-radius;
+    color:@button-color;
+    background:@button-background;
+    background:-webkit-linear-gradient(lighten(@button-background, 7%), @button-background);
+    background:-moz-linear-gradient(lighten(@button-background, 7%), @button-background);
+    background:-o-linear-gradient(lighten(@button-background, 7%), @button-background);
+    background:linear-gradient(lighten(@button-background, 7%), @button-background);
+}
+
+.uk-button:hover {
+    color:@button-color;
+    background: lighten(@button-background, 5%);
+}
+
+.uk-button.uk-active,
+.uk-button:focus,
+.uk-button:active {
+    color:@button-color;
+    box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* button primary */
+.uk-button-primary {
+    border:1px solid darken(@button-primary-background, 3%);
+    color:@button-primary-color;
+    background:@button-primary-background;
+    background:-webkit-linear-gradient(lighten(@button-primary-background, 7%), @button-primary-background);
+    background:-moz-linear-gradient(lighten(@button-primary-background, 7%), @button-primary-background);
+    background:-o-linear-gradient(lighten(@button-primary-background, 7%), @button-primary-background);
+    background:linear-gradient(lighten(@button-primary-background, 7%), @button-primary-background);
+}
+
+.uk-button-primary:hover {
+    color:@button-primary-color;
+    background: lighten(@button-primary-background, 5%);
+}
+
+.uk-button-primary:focus,
+.uk-button-primary:active {
+    color:@button-primary-color;
+}
+
+/* button success */
+.uk-button-success {
+    border:1px solid darken(@button-success-background, 3%);
+    color:@button-success-color;
+    background:@button-success-background;
+    background:-webkit-linear-gradient(lighten(@button-success-background, 7%), @button-success-background);
+    background:-moz-linear-gradient(lighten(@button-success-background, 7%), @button-success-background);
+    background:-o-linear-gradient(lighten(@button-success-background, 7%), @button-success-background);
+    background:linear-gradient(lighten(@button-success-background, 7%), @button-success-background);
+}
+
+.uk-button-success:hover {
+    color:@button-success-color;
+    background: lighten(@button-success-background, 5%);
+}
+
+.uk-button-success:focus,
+.uk-button-success:active {
+    color:@button-success-color;
+}
+
+/* button danger */
+.uk-button-danger {
+    border:1px solid darken(@button-danger-background, 3%);
+    color:@button-danger-color;
+    background:@button-danger-background;
+    background:-webkit-linear-gradient(lighten(@button-danger-background, 7%), @button-danger-background);
+    background:-moz-linear-gradient(lighten(@button-danger-background, 7%), @button-danger-background);
+    background:-o-linear-gradient(lighten(@button-danger-background, 7%), @button-danger-background);
+    background:linear-gradient(lighten(@button-danger-background, 7%), @button-danger-background);
+}
+
+.uk-button-danger:hover {
+    color:@button-danger-color;
+    background: lighten(@button-danger-background, 5%);
+}
+
+.uk-button-danger:focus,
+.uk-button-danger:active {
+    color:@button-danger-color;
+}
