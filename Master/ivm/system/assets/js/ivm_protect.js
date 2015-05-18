@@ -1,22 +1,20 @@
 jQuery(function($) {
   
-    // PROTECT SSPECIFIC FOLDERS
-    // @menus
-    $('a[href="index.php?p=home&f=blocks/@menus"]').addClass('ivm-protect');
+    // PROTECT SPECIFIC FOLDERS
+    
     $('#ivm-admin-main .ivm-protect').parent().addClass('uk-hidden');
     $('#ivm-admin-main .folder-row.uk-hidden').parent().addClass('uk-hidden');
+    
+    // @menus
+    $('a[href="index.php?p=home&f=blocks/@menus"]').addClass('ivm-protect');
     $('a[href="index.php?p=rename&d=blocks/@menus"]').addClass('uk-hidden');
     
     // @system
     $('a[href="index.php?p=home&f=blocks/@system"]').addClass('ivm-protect');
-    $('#ivm-admin-main .ivm-protect').parent().addClass('uk-hidden');
-    $('#ivm-admin-main .folder-row.uk-hidden').parent().addClass('uk-hidden');
     $('a[href="index.php?p=rename&d=blocks/@system"]').addClass('uk-hidden');
     
     // @sidebar
     $('a[href="index.php?p=home&f=blocks/@sidebar"]').addClass('ivm-protect');
-    $('#ivm-admin-main .ivm-protect').parent().addClass('uk-hidden');
-    $('#ivm-admin-main .folder-row.uk-hidden').parent().addClass('uk-hidden');
     $('a[href="index.php?p=rename&d=blocks/@sidebar"]').addClass('uk-hidden');
     
     $('.uk-dropdown .uk-panel > li').removeClass('uk-hidden');
@@ -55,7 +53,6 @@ jQuery(function($) {
     $('a.rename[href$="&e=.png"]').addClass('uk-hidden');
     $('a.rename[href$="&e=.gif"]').addClass('uk-hidden');
     $('a.rename[href$="&e=.svg"]').addClass('uk-hidden');
-    
     
     
 });
