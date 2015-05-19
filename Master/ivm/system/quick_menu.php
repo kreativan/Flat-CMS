@@ -2,9 +2,10 @@
 
 <div class="uk-dropdown uk-dropdown-width-2 uk-text-center">
     <h4 class="ivm-settings-heading"><i class="uk-icon-gears"></i> Settings & Tools</h4>
-    <div class="uk-grid uk-dropdown-grid">
-        <div class="uk-width-1-3">
-            <ul class="uk-panel">
+    <div class="uk-grid uk-dropdown-grid uk-clearfix">
+        
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
                 <li>
                     <a href="#ivm-general-settings" data-uk-modal>
                         <div><img src="../ivm/system/assets/img/icons/general.png" />
@@ -15,8 +16,8 @@
             </ul>
         </div>
         
-        <div class="uk-width-1-3">
-            <ul class="uk-panel">
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
                 <li>
                     <a href="#ivm-dev-settings" data-uk-modal>
                         <div><img src="../ivm/system/assets/img/icons/code.png" />
@@ -27,8 +28,8 @@
             </ul>
         </div>
         
-        <div class="uk-width-1-3">
-            <ul class="uk-panel">
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
                 <li>
                     <a href="#ivm-email-settings" data-uk-modal>
                         <div><img src="../ivm/system/assets/img/icons/email.png" />
@@ -39,8 +40,8 @@
             </ul>
         </div>
         
-        <div class="uk-width-1-3">
-            <ul class="uk-panel">
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
                 <li>
                     <a href="#ivm-map-settings" data-uk-modal>
                         <div><img src="../ivm/system/assets/img/icons/map.png" />
@@ -51,8 +52,8 @@
             </ul>
         </div>
         
-        <div class="uk-width-1-3">
-            <ul class="uk-panel">
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
                 <li>
                     <a href="#ivm-gallery-settings" data-uk-modal>
                         <div><img src="../ivm/system/assets/img/icons/gallery.png" />
@@ -63,8 +64,8 @@
             </ul>
         </div>
 
-        <div class="uk-width-1-3">
-            <ul class="uk-panel">
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
                 <li>
                     <a href="index.php?p=home&f=blocks/@system">
                         <div><img src="../ivm/system/assets/img/icons/system.png" />
@@ -75,8 +76,8 @@
             </ul>
         </div>
 
-        <div class="uk-width-1-3">
-            <ul class="uk-panel">
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
                 <li>
                     <a href="index.php?f=stats">
                         <div><img src="../ivm/system/assets/img/icons/stats.png" />

@@ -48,7 +48,7 @@ ob_end_clean();
     <link rel="stylesheet" href="<?php echo $path; ?>/ivm/framework/fonts/FaktPro.css">
     
     <!-- css -->
-    <link rel="stylesheet" href="<?php echo $path; ?>/ivm/system/assets/css/uikit.min.css">
+    <link rel="stylesheet" href="<?php echo $path; ?>/ivm/system/assets/css/ivm-uikit.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/ivm/system/assets/css/ivm-admin.min.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/ivm/system/assets/fonts/flaticon.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/ivm/system/assets/css/custom.css">
