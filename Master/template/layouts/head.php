@@ -1,3 +1,7 @@
+<!-- favicon -->
+<link rel="shortcut icon" type="image/ico" href="<?php echo $path; ?>/template/img/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="<?php echo $path; ?>/template/img/apple-touch-icon.png" />
+
 <!-- fonts -->
 <link rel="stylesheet" href="<?php echo $path; ?>/ivm/framework/fonts/FaktPro.css">
 <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=true"></script>
