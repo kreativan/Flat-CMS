@@ -138,7 +138,7 @@ if (!empty($language) && file_exists("../ivm/lang/$language.php")){ include_once
 </div>    
 
 <!-- main content -->    
-<div id="ivm-admin-main"> 
+<div id="ivm-admin-main" class="ivm-folder-<?php echo $folder_display; ?>"> 
     <?php 
         echo $content;  
         if ($autobackup ==true && extension_loaded('zip')==true ){ include("inc/auto_backup.php"); } 

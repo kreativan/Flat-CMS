@@ -10,6 +10,7 @@ if (isset($_POST['ivm_general_submit'])){
     $txt .= '$ivm_site_name='.'"'.$_POST["ivm_site_name"].'"'.';'."\n";
     $txt .= '$ivm_language='.'"'.$_POST["ivm_language"].'"'.';'."\n";
     $txt .= '$ivm_editor='.'"'.$_POST["ivm_editor"].'"'.';'."\n";
+    $txt .= '$folder_display='.'"'.$_POST["folder_display"].'"'.';'."\n";
     $txt .= '$ivm_blog_posts='.'"'.$_POST["ivm_blog_posts"].'"'.';'."\n";
     $txt .= '?>';
     fwrite($myfile, $txt);
@@ -48,6 +49,18 @@ if (isset($_POST['ivm_general_submit'])){
         <select name="ivm_editor">
             <option <?php if ($ivm_editor == "redactor") echo 'selected="selected"'; ?>>redactor</option>
             <option <?php if ($ivm_editor == "htmleditor") echo 'selected="selected"'; ?>>htmleditor</option>
+        </select>
+    </div>
+</div>
+    
+<hr>
+    
+<div class="ivm-option uk-clearfix">
+    <div class="uk-text-muted uk-float-left" style="position:relative;top:3px;">Folder Display</div>
+    <div class="uk-float-right">
+        <select name="folder_display">
+            <option <?php if ($folder_display == "grid") echo 'selected="selected"'; ?>>grid</option>
+            <option <?php if ($folder_display == "list") echo 'selected="selected"'; ?>>list</option>
         </select>
     </div>
 </div>

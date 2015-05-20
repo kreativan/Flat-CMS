@@ -1,0 +1,56 @@
+
+/* GRID */
+.ivm-folder-grid .ivm-folder .folder > span {
+    text-transform:uppercase;
+    font-family:'Fakt Medium';
+    color:#999;
+}
+.ivm-folder-grid .ivm-folder .folder:hover > span {
+    color:#fff;
+}
+
+/* LIST */
+#ivm-admin-main.ivm-folder-list .ivm-folder {
+    width:100%;
+}
+
+
+#ivm-admin-main.ivm-folder-list .folder-row {
+    min-height:50px;
+}
+#ivm-admin-main.ivm-folder-list .ivm-folder {
+    padding-bottom:10px;
+}
+#ivm-admin-main.ivm-folder-list .ivm-folder .folder {
+    height:50px;
+    width:100%;
+    line-height:50px;
+    padding-left:10px;
+    text-align:left;
+}
+
+#ivm-admin-main.ivm-folder-list .ivm-folder .folder::before {
+    font-size:30px;
+    color:#888;
+}
+
+#ivm-admin-main.ivm-folder-list .ivm-folder .folder > span {
+    background: transparent;
+    height:50px;
+    line-height:50px;
+    border:0px;
+    text-transform:uppercase;
+    font-family:'Fakt Medium';
+    color:#999;
+    display: inline-block;
+    text-align:left;
+    padding-left:10px;
+}
+
+.ivm-folder-list .ivm-folder .folder:hover {
+    background:transparent;
+}
+#ivm-admin-main.ivm-folder-list .ivm-folder .folder:hover > span {
+    color:#666;
+    text-shadow:none;
+}
