@@ -9,12 +9,22 @@
     <li><a href="index.php?f=blocks/@sidebar"><i class="uk-icon-columns"></i> <?php echo $lg_admin_sidebar; ?></a></li>
     <li><a href="index.php?f=blog"><i class="uk-icon-pencil"></i> <?php echo $lg_admin_blog; ?></a></li>
     
+    <?php if (file_exists("../template/admin/menu-widgets.php")) : ?>
     <li class="uk-parent"><a href="#"><i class="uk-icon-rocket"></i> <?php echo $lg_admin_widgets; ?></a>
         <ul class="uk-nav-sub">
-             <?php include("../template/admin/menu.php");?>
+             <?php include("../template/admin/menu-widgets.php");?>
         </ul>
     </li>
+    <?php endif;?>
     
     <li><a href="index.php?f=media"><i class="uk-icon-photo"></i> <?php echo $lg_admin_media; ?></a></li>
+    
+    <?php if (file_exists("../template/admin/menu-multi-lang.php")) : ?>
+    <li class="uk-parent"><a href="#"><i class="uk-icon-language"></i> <?php echo $lg_admin_multillang; ?></a>
+        <ul class="uk-nav-sub">
+             <?php include("../template/admin/menu-multi-lang.php");?>
+        </ul>
+    </li>
+    <?php endif;?>
     
 </ul>
