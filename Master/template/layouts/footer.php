@@ -18,11 +18,11 @@
 
 </div>
 
-<div id="ivm-mobile-menu" class="uk-offcanvas">
+<footer id="ivm-mobile-menu" class="uk-offcanvas">
     <div class="uk-offcanvas-bar">
         <div class="uk-offcanvas-header"><img class="logo" alt="logo" src="<?php echo $path; ?>/template/img/logo.png"></div>
         <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
             <?php include("content/blocks/@menus/sb_mobile_menu.txt"); ?>
         </ul>    
     </div>
-</div>
+</footer>

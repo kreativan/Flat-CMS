@@ -5,7 +5,7 @@
     </a>
 </div>
 
-<div id="ivm-header" class="uk-visible-large">
+<header id="ivm-header" class="uk-visible-large">
 <div class="uk-container uk-container-center">	
     
 <div id="ivm-logo">
@@ -19,4 +19,4 @@
 </nav>
 
 </div>    
-</div>
+</header>
