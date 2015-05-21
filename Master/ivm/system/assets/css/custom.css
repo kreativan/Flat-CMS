@@ -54,3 +54,9 @@
     color:#666;
     text-shadow:none;
 }
+
+form.rename-form,
+.rename-form input {
+    width:100%;
+    margin-bottom:10px;
+}
