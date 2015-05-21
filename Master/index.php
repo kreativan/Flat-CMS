@@ -61,10 +61,10 @@ if (preg_match_all("/".'(\\{)'.'(\\{)'.'.*?'.'(\\})'.'(\\})'."/", $content, $m))
     }
 }
 
-if (!empty($new_template) && file_exists("ivm/page-templates/$new_template/layout.php")) {
+if (!empty($new_template) && (file_exists("ivm/page-templates/$new_template/layout.php") || file_exists("template/page-templates/$new_template/layout.php"))) {
     include ("ivm/page-templates/$new_template/layout.php");
     include ("template/page-templates/$new_template/layout.php");
-} 
+}
 
 else { 
     include("template/layout.php"); 
