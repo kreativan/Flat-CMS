@@ -61,7 +61,7 @@ form.rename-form,
     margin-bottom:10px;
 }
 
-/* redacor editor */
+/* editors */
 #textblock, #wysiwyg {
 	background:#fff;
 	color:#444;
@@ -69,5 +69,9 @@ form.rename-form,
 }
 
 .redactor-editor > * {
+	font-family:'Fakt';
+}
+
+.CodeMirror span {
 	font-family:'Fakt';
 }
