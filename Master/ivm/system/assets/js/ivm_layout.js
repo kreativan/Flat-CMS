@@ -23,4 +23,7 @@ jQuery(function($) {
     // add html editor to textarea
     $("#caption_form > textarea").attr("data-uk-htmleditor","{mode:'tab'}");
     
+    // redactor + sb_blocks html editor
+    $("textarea#textblock").attr("data-uk-htmleditor","{mode:'tab'}");
+    
 });

@@ -60,3 +60,14 @@ form.rename-form,
     width:100%;
     margin-bottom:10px;
 }
+
+/* redacor editor */
+#textblock, #wysiwyg {
+	background:#fff;
+	color:#444;
+	font-family:'Fakt';
+}
+
+.redactor-editor > * {
+	font-family:'Fakt';
+}
