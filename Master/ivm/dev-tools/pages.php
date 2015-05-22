@@ -12,6 +12,16 @@
         <?php include("../template/admin/pages.php");?>
         
     </div>
+    
+    <h3 class="uk-accordion-title">Protected Page</h3>
+    <div class="uk-accordion-content">     
+        
+        <div class="ivm-html-code-title">Passsword Protected Page</div>
+        <div id="ivm-protect-page-code" class="ivm-html-code" onclick="selectText('ivm-protect-page-code')">
+            <?php echo '{{template:@protect}}'; ?>
+        </div>
+        
+    </div>
            
     <h3 class="uk-accordion-title">Page (content page)</h3>
     <div class="uk-accordion-content">     

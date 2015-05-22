@@ -52,7 +52,7 @@ if (preg_match_all("/".'(\\{)'.'(\\{)'.'.*?'.'(\\})'.'(\\})'."/", $content, $m))
         if($get_embed == 'template'){ $new_template = $tag_var1; }
         else { 
             include("template/widgets/$get_embed.php");
-            include("ivm/widgets/$get_embed.php");
+            include("ivm/plugins/$get_embed.php");
             include("inc/tags/$get_embed.php");
             $new  = ob_get_contents();
         }

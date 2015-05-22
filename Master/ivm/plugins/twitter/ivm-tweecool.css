@@ -1,0 +1,26 @@
+#tweecool ul {
+    list-style:none;
+    padding:0px;
+}
+
+#tweecool ul li {
+    clear:both;
+    overflow:hidden;
+    height:auto;
+}
+
+#tweecool ul li + li {
+    margin-top:10px;
+    padding-top:10px;
+    border-top:1px solid #ddd;
+}
+
+.ivm-tweet-img {
+    float:left;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.ivm-tweet-txt img {
+    display:block;
+}

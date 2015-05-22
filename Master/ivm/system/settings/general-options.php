@@ -12,6 +12,7 @@ if (isset($_POST['ivm_general_submit'])){
     $txt .= '$ivm_editor='.'"'.$_POST["ivm_editor"].'"'.';'."\n";
     $txt .= '$folder_display='.'"'.$_POST["folder_display"].'"'.';'."\n";
     $txt .= '$ivm_blog_posts='.'"'.$_POST["ivm_blog_posts"].'"'.';'."\n";
+    $txt .= '$protected_pages_password='.'"'.$_POST["protected_pages_password"].'"'.';'."\n";
     $txt .= '?>';
     fwrite($myfile, $txt);
     
@@ -75,6 +76,15 @@ if (isset($_POST['ivm_general_submit'])){
 </div>
     
 <hr>
+    
+<div class="ivm-option uk-clearfix">
+    <div class="uk-text-muted uk-float-left" style="position:relative;top:3px;">Protected pages password:</div>
+    <div class="uk-float-right">
+	   <input type="text" name="protected_pages_password" value="<?php echo $protected_pages_password; ?>">
+    </div>
+</div>
+    
+<hr>     
     
 <!-- SAVE BUTTON -->    
 <div class="uk-text-center">
