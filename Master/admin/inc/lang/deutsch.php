@@ -5,7 +5,7 @@ $lang_cancel = "Abbrechen";
 $lang_help = "Hilfe";
 $lang_save = "Speichern";
 $lang_rename_btn = "Umbenennen";
-$lang_title = "Pulse CMS";
+$lang_title = "Flat CMS";
 
 // Login
 
