@@ -5,5 +5,6 @@
     include("settings/general-config.php");
     include("settings/map-config.php");
     include("settings/gallery-config.php");
+    include("settings/twitter-config.php");
 
 ?>

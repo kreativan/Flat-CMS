@@ -55,6 +55,18 @@
         <div class="uk-width-1-3" style="width:33%;float:left;">
             <ul style="margin:0px;">
                 <li>
+                    <a href="#ivm-twitter-settings" data-uk-modal>
+                        <div><img src="../ivm/system/assets/img/icons/twitter.png" />
+                        </div>
+                        <span>Twitter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="uk-width-1-3" style="width:33%;float:left;">
+            <ul style="margin:0px;">
+                <li>
                     <a href="#ivm-gallery-settings" data-uk-modal>
                         <div><img src="../ivm/system/assets/img/icons/gallery.png" />
                         </div>
