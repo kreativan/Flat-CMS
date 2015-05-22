@@ -32,7 +32,6 @@ $password         = 'admin'; // Admin login
 $autobackup       = true; // Turn on/off auto-backup feature
 date_default_timezone_set('Europe/Belgrade'); // More: https://php.net/manual/en/timezones.php
 $language         = $ivm_language;
-$pulse_serial     = '' ;
 
 // EDITOR
 
@@ -50,7 +49,6 @@ $mail_inputs      = array('Name'=>'text','Email'=>'email'); // Input fields eg: 
 $lang_form_name   = 'Name'; // Must match "Name" input above
 $lang_form_email  = 'Email'; // Must match "Email" input above
 $mail_textarea    = array('Comment'=>'7'); // 7 = Number of rows in comment textarea
-$email_contact    = array('$ivm_master_mail'); // Example: 'one@mail.com','two@mail.com'
 
 // Tip: To add more form fields, add to the $mail_inputs array
 
