@@ -75,3 +75,28 @@ form.rename-form,
 .CodeMirror span {
 	font-family:'Fakt';
 }
+
+/* dev-tools fixes */
+
+.ivm-html-code {
+	margin-bottom:0px;
+}
+
+.ivm-html-code::-moz-selection { 
+	background: #39f; 
+	color:transparent;
+}
+.ivm-html-code::selection { 
+	background: #39f;
+	color:transparent;
+}
+
+.ivm-dev-tools {
+	width:400px;
+}
+
+.dev-tools-heading {
+	display:block;
+	width:400px;
+	top:65px;
+}
