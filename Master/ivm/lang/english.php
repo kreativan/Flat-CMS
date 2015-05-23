@@ -25,3 +25,4 @@ $lg_admin_general = 'General';
 $lg_admin_map = 'Map';
 $lg_admin_reload = 'Reload';
 $lg_admin_docs = 'Docs';
+$lg_admin_multillang = 'Multi Language';
