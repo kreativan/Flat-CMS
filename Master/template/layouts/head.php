@@ -36,3 +36,12 @@
 <?php if($custom_css == 'on') : ?>
     <?php include("content/blocks/@system/sb_custom_css.txt"); ?>
 <?php endif;?>
+
+<script type="text/javascript">
+// add prefix to img src    
+$(document).ready(function() {
+       $("img").each(function() {
+          $(this).attr("src", $(this).attr("src").replace("/content", "<?php echo $path;?>/content"));
+       });
+    });
+</script>
