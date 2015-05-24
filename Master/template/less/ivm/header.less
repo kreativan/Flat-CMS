@@ -2,6 +2,8 @@
 @ivm-header-color:                              #444;
 @ivm-header-border:                             #ddd;
 
+@ivm-header-padding:                            10px;
+
 @ivm-logo-width:                                20%;
 @ivm-navbar-width:                              80%;
 
@@ -16,19 +18,25 @@
 
 .uk-sticky-placeholder {
     height:auto !important;
-}
-#ivm-header {
-    backface-visibility: hidden;
+    background:@ivm-header-background;
 }
 
 #ivm-header {
-    position:relative;
     display:block;
-    padding:0px 0px;
+    backface-visibility: hidden;
+    position:absolute;
     background:@ivm-header-background;
     border-bottom:1px solid @ivm-header-border;
-    //box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    top:0;
+    left:0;
+    right:0;
+    padding:@ivm-header-padding 0px !important;
+    width:100%;
     z-index:999;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
 }
 
 #ivm-logo {
@@ -76,11 +84,10 @@
     border:none;
     box-shadow:none;
     padding:0px;
-}
-
-#ivm-header.ivm-active-header > div {
-    position:relative;
-    top:10px;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
 }
 
 #ivm-header.ivm-active-header .uk-navbar-nav > li > a {
@@ -110,7 +117,7 @@
     border-bottom:1px solid @ivm-header-border;
     box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.1);
     z-index:999;
-    padding:0px;
+    padding:0px !important;
 }
 
 #ivm-header.ivm-active-header.uk-active .uk-navbar-nav > li > a {
@@ -119,8 +126,4 @@
 #ivm-header.ivm-active-header.uk-active .uk-navbar-nav > li.uk-active > a,
 #ivm-header.ivm-active-header.uk-active .uk-navbar-nav > li > a:hover {
     color:#444;
-}
-
-#ivm-header.ivm-active-header.uk-active > div {
-    top:0px;
 }

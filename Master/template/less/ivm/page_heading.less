@@ -1,9 +1,9 @@
 @ivm-page-heading-padding:                      50px;
 @ivm-page-heading-background:                   #232C39;
-@ivm-page-heading-color:                        #fff;
+@ivm-page-heading-color:                        rgba(255, 255, 255, 0.7);
 
 @ivm-page-heading-bg:                           url(../img/bg.jpg);
-@ivm-page-heading-bg-color:                     #fff;
+@ivm-page-heading-bg-color:                     rgba(255, 255, 255, 0.8);
 
 /* ========================================================================
     PAGE HEADINGS
@@ -15,6 +15,7 @@
     text-align:center;
     background:@ivm-page-heading-background;
     color:@ivm-page-heading-color;
+    transition:All 0.3s ease;
 }
 
 .ivm-page-heading.ivm-page-heading-bg {
@@ -39,6 +40,7 @@
 .ivm-page-heading h5 + *,
 .ivm-page-heading h6 + * {
     margin-bottom:@base-margin-vertical;
+    color:fade(@ivm-page-heading-color, 50%);
 }
 
 .ivm-page-heading.ivm-page-heading-bg h1,
@@ -46,18 +48,17 @@
 .ivm-page-heading.ivm-page-heading-bg h3,
 .ivm-page-heading.ivm-page-heading-bg h4,
 .ivm-page-heading.ivm-page-heading-bg h5,
-.ivm-page-heading.ivm-page-heading-bg h6,
-.ivm-page-heading.ivm-page-heading-bg > * {
+.ivm-page-heading.ivm-page-heading-bg h6 {
     color:@ivm-page-heading-bg-color;
     text-shadow:@ivm-module-text-shadow;
 }
 
 .uk-sticky-placeholder + .ivm-page-heading {
     margin-top:-(@navbar-nav-height + 1px);
-    padding-top:(@navbar-nav-height + @ivm-page-heading-padding + 1px);
+    padding-top:(@navbar-nav-height + @ivm-page-heading-padding + 50px);
 }
 
 #ivm-header + .ivm-page-heading {
     margin-top:-(@navbar-nav-height + 1px);
-    padding-top:(@navbar-nav-height + @ivm-page-heading-padding + 1px);
+    padding-top:(@navbar-nav-height + @ivm-page-heading-padding + 50px);
 }
