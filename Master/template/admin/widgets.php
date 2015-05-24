@@ -1,5 +1,5 @@
 <!-- custom widgets snippets -->
-<h3 class="uk-accordion-title">custom widget</h3>
+<h3 class="uk-accordion-title uk-active">custom widget</h3>
 <div class="uk-accordion-content">
 
     <div class="ivm-html-code-title">No widgets</div>
