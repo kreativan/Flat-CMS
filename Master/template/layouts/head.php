@@ -15,7 +15,6 @@
 
 <script src="<?php echo $path; ?>/ivm/framework/js/ivm_menu.js"></script>
 <script src="<?php echo $path; ?>/ivm/framework/js/highlight.pack.js"></script>
-<script src="<?php echo $path; ?>/ivm/framework/js/svg.js"></script>
 
 <script src="<?php echo $path; ?>/template/js/smooth-scroll.js"></script>
 <script src="<?php echo $path; ?>/template/js/custom.js"></script>
@@ -45,3 +44,4 @@ $(document).ready(function() {
        });
     });
 </script>
+<script src="<?php echo $path; ?>/ivm/framework/js/svg.js"></script>
