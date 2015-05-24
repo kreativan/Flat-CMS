@@ -76,6 +76,11 @@
         <?php echo '{{ivm-map}}'; ?>
     </div>
     
+    <div class="ivm-html-code-title">ivm-panorama</div>
+    <div id="ivm-plugin-panorama-code" class="ivm-html-code" onclick="selectText('ivm-plugin-panorama-code')">
+        <?php echo '{{ivm-panorama}}'; ?>
+    </div>
+    
 </div>
     
 <!-- Twitter -->
