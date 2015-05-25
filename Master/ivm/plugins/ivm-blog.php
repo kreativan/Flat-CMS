@@ -45,7 +45,7 @@ if (!(empty($get_id)) && is_numeric($get_id) && $all_blog_files[$get_id]) {
 		
 	    echo "<article class='uk-article'>";
 	    echo "<h1 class='uk-article-title'>$title</h1>";
-	    echo "<p class='uk-artivle-meta'>$date</p>";
+	    echo "<p class='uk-article-meta'>$date</p>";
 		echo $parsedown->text($content_blog);	
 		if ($disqus_comments == true){include('inc/plugins/disqus.php');}
 		echo "</article>";

@@ -40,7 +40,7 @@
 // add prefix to img src    
 $(document).ready(function() {
        $("img").each(function() {
-          $(this).attr("src", $(this).attr("src").replace("/content", "<?php echo $path;?>/content"));
+          $(this).attr("src", $(this).attr("src").replace("<?php echo $path;?>/content", "content"));
        });
     });
 </script>
