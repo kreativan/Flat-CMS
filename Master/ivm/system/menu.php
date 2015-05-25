@@ -10,7 +10,7 @@
     <li><a href="index.php?f=blog"><i class="uk-icon-pencil"></i> <?php echo $lg_admin_blog; ?></a></li>
     
     <?php if (file_exists("../template/admin/menu-widgets.php")) : ?>
-    <li class="uk-parent"><a href="index.php?p=home&f=blocks/@widgets"><i class="uk-icon-rocket"></i> <?php echo $lg_admin_widgets; ?></a>
+    <li class="uk-parent"><a href="#"><i class="uk-icon-rocket"></i> <?php echo $lg_admin_widgets; ?></a>
         <ul class="uk-nav-sub">
              <?php include("../template/admin/menu-widgets.php");?>
         </ul>
