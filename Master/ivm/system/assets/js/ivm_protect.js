@@ -17,6 +17,10 @@ jQuery(function($) {
     $('a[href="index.php?p=home&f=blocks/@sidebar"]').addClass('ivm-protect');
     $('a[href="index.php?p=rename&d=blocks/@sidebar"]').addClass('uk-hidden');
     
+    // @widgets
+    $('a[href="index.php?p=home&f=blocks/@widgets"]').addClass('ivm-protect');
+    $('a[href="index.php?p=rename&d=blocks/@widgets"]').addClass('uk-hidden');
+    
     $('.uk-dropdown .uk-panel > li').removeClass('uk-hidden');
     
     
