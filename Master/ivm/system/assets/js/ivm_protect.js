@@ -20,6 +20,8 @@ jQuery(function($) {
     // @widgets
     $('a[href="index.php?p=home&f=blocks/@widgets"]').addClass('ivm-protect');
     $('a[href="index.php?p=rename&d=blocks/@widgets"]').addClass('uk-hidden');
+    $('a[href="index.php?p=delete&d=blocks/@widgets"]').addClass('uk-hidden');
+    
     
     $('.uk-dropdown .uk-panel > li').removeClass('uk-hidden');
     

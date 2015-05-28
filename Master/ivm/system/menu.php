@@ -13,6 +13,24 @@
     <li class="uk-parent"><a href="#"><i class="uk-icon-rocket"></i> <?php echo $lg_admin_widgets; ?></a>
         <ul class="uk-nav-sub">
              <?php include("../template/admin/menu-widgets.php");?>
+            
+            <?php $folders = glob("../content/blocks/@widgets" . '/*' , GLOB_ONLYDIR); ?>
+            <?php foreach($folders as $folder) : ?>
+                <?php 
+                        $folder = basename($folder);
+                        $folder_name = str_replace('@', '', $folder);
+                ?>
+                <li><a href="index.php?f=blocks/@widgets/<?php echo $folder;?>"><?php echo $folder_name;?></a></li>
+            <script>
+                jQuery(function($) { 
+                    $('a[href="index.php?p=rename&d=blocks/@widgets/<?php echo $folder;?>"]').addClass('uk-hidden');
+                    $('a[href="index.php?p=delete&d=blocks/@widgets/<?php echo $folder;?>"]').addClass('uk-hidden');
+                    $('a[href^="index.php?p=rename&d=blocks/@widgets/<?php echo $folder;?>/sb_settings"]').addClass('uk-hidden');
+                    $('a[href^="index.php?p=delete&d=blocks/@widgets/<?php echo $folder;?>/sb_settings"]').addClass('uk-hidden');
+                });    
+            </script>
+            <?php endforeach;?>
+            
         </ul>
     </li>
     <?php endif;?>
